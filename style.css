@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    
+    /* background-color: black; */
+}
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+}
+
+.logo-section {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.logo-section>a>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 55%;
+}
+
+.logo-section>a>h2 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #082465;
+}
+
+.nav-buttons {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-buttons>a {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-buttons>a:hover {
+    color: #082465;
+}
+
+/* Hero Section */
+
+.hero-section {
+    width: 100%;
+    height: 600px;
+    background-image: url(asset\ 53.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    padding-top: 120px;
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+
+}
+
+.content-section>h2 {
+    color: white;
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.content-section>h1 {
+    color: #fec913;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.content-section>p {
+    color: white;
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.content-section>button {
+    width: 200px;
+    height: 50px;
+    background-color: #fec913;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px 0px;
+    transform: translateY(-12px);
+    transition: 0.5s;
+    
+}
+
+.picture-section>img {
+    width: 700px; 
+    height: 450px; 
+    margin-top: 50px;
+}
+
+
+/* About Section */
+
+.about-section {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+}
+
+.about-section>h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #082465;
+}
+
+.about-section>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.about-section>img {
+    width: 800px;
+    margin-top: 50px;
+}
+
+.read-more {
+    width: 200px;
+    height: 50px;
+    background-color: #fec913;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* Teachers Section */
+
+.teachers-section {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+}
+
+.teachers-section>h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #082465;
+    margin-top: 50px;
+}
+
+.teachers-section>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.teachers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.box>h3 {
+    font-weight: 100;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Gallery */
+
+.gallery {
+    height: 1350px;
+    text-align: center;
+}
+
+.gallery>h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #082465;
+    margin-bottom: 50px;
+}
+
+.images {
+    width: 1210px;
+    /* border: 2px solid black; */
+    margin-left: 100px;
+}
+
+.images>img {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.images>img img:not(:last-child) {
+    margin-right: 10px;
+}
+
+.images:hover > :not(:hover) {
+    opacity: 0.2;
+}
+
+/* Vahicle Section */
+
+.vahicle-section {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+}
+
+.vahicle-section>h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #082465;
+    margin-top: 50px;
+}
+
+.vahicle-section>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+/* Feedback Section */
+
+.feedback-section {
+    width: 100%;
+    height: 700px;
+    background-image: url(asset\ 58.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 250px 580px;
+    text-align: center;
+    align-items: center;
+}
+
+.feedback-section>h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #082465;
+    margin-top: 50px;
+}
+
+.feedback-section>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.feedback {
+    width: 70%;
+    height: 300px;
+    padding: 40px;
+    background-color: white;
+    margin-left: 180px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
+    text-align: start;
+}
+
+/* Contact Section */
+
+.contact-now {
+    width: 100%;
+    height: 700px;
+    background-image: url(asset\ 59.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 200px 530px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-now>h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #082465;
+    margin-top: 50px;
+}
+
+.contact-now>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.input {
+    width: 550px; 
+    height: 45px; 
+    padding-left: 10px; 
+    background-color: #dedee0; 
+    border: none; 
+    outline: none; 
+    color: black; 
+    font-size: 20px;
+}
+
+.input-message {
+    width: 550px; 
+    height: 130px; 
+    padding-left: 10px; 
+    background-color: #dedee0; 
+    border: none; 
+    outline: none; 
+    color: black; 
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+.contact-now>button {
+    width: 150px;
+    height: 50px;
+    background-color: #fec913;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+/* Map Location */
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:400px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+    height:400px;
+}
+
+.gmap_iframe {
+    height:400px!important;
+}
+
+/* Admission Section */
+
+.admission {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+.admission>h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #082465;
+    margin-top: 50px;
+}
+
+.admission>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}

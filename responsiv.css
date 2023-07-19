@@ -1,0 +1,337 @@
+/* Navbar */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        width: 600px;
+        height: 50px;
+        background-color: #d7b50a;
+        position: fixed;
+        background-size: cover;
+        justify-content: start;
+    }
+
+    .logo-section {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .logo-section>a>img {
+        width: 50px;
+        height: 50px;
+        border-radius: 55%;
+        margin-left: 20px;
+    }
+
+    .logo-section>a>h2 {
+        font-size: 20px;
+        font-weight: 800;
+        color: #082465;
+        display: none;
+    }
+
+    .nav-buttons {
+        width: 540px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-left: 0px;
+    }
+
+    .nav-buttons>a {
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav-buttons>a:hover {
+        /* color: #38387D; */
+        color: white;
+    }
+
+    .search {
+        display: none;
+    }
+
+}
+
+/* Hero Section */
+
+@media (max-width: 600px) {
+
+    .hero-section {
+        width: 100%;
+        height: 400px;
+        background-image: none;
+        padding-top: 120px;
+        display: inline-block;
+        text-align: center;
+        justify-content: space-evenly;
+    
+    }
+
+    .content-section>h2 {
+        color: black;
+        margin-top: 0px;
+        font-size: 35px;
+        font-weight: 100;
+    }
+
+    .content-section>h1 {
+        color: #fec913;
+        font-size: 50px;
+        font-weight: 900;
+        margin-top: 20px;
+    }
+
+    .content-section>p {
+        color: black;
+        font-size: 22px;
+        line-height: 35px;
+        margin-top: 20px;
+    }
+
+    .content-section>button {
+        width: 200px;
+        height: 50px;
+        background-color: #fec913;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px 0px;
+        transform: translateY(-12px);
+        transition: 0.5s;
+        
+    }
+
+    .picture-section>img {
+        width: 500px;
+        height: 350px;
+    }
+}
+
+/* About Section */
+
+@media (max-width: 600px) {
+
+    .about-section {
+        width: 100%;
+        height: 700px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-section>h2 {
+        font-size: 35px;
+        font-weight: 900;
+        color: #082465;
+        margin-top: 20px;
+    }
+
+    .about-section>p {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .about-section>img {
+        width: 500px;
+        margin-top: 50px;
+    }
+}
+
+/* Teachers Section */
+
+@media (max-width: 600px) {
+
+    .teachers-section {
+        width: 100%;
+        height: 1750px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .teachers {
+        height: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+}
+
+/* Gallery */
+
+@media (max-width: 600px) {
+
+    .gallery {
+        width: 600px;
+        height: 3500px;
+        text-align: center;
+    }
+
+    .images {
+        width: 100%;
+        height: 600px;
+        display: grid;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .images>img {
+        width: 350px;
+        height: 350px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+}
+
+/* Vahicle Section */
+
+@media (max-width: 600px) {
+
+    .vahicle-section {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .vahicle-section>p {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .vahicle-section>img {
+        width: 500px;
+        height: 150px;
+    }
+}
+
+/* Feedback Section */
+
+@media (max-width: 600px) {
+    
+    .feedback-section {
+        width: 100%;
+        height: 750px;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-size: 250px 580px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .feedback-section>p {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .feedback {
+        width: 70%;
+        height: 430px;
+        padding: 40px;
+        background-color: white;
+        margin-left: 50px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
+        text-align: start;
+    }
+}
+
+/* Contact Section */ 
+
+@media (max-width: 600px) {
+
+    .contact-now {
+        width: 100%;
+        height: 700px;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-size: 200px 530px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact-now>p {
+        display: none;
+    }
+
+    .input {
+        width: 450px; 
+        height: 45px; 
+        padding-left: 10px; 
+        background-color: #dedee0; 
+        border: none; 
+        outline: none; 
+        color: black; 
+        font-size: 20px;
+    }
+
+    .input-message {
+        width: 450px; 
+        height: 130px; 
+        padding-left: 10px; 
+        background-color: #dedee0; 
+        border: none; 
+        outline: none; 
+        color: black; 
+        font-size: 20px;
+    }
+}
+
+/* Admission Section */
+
+@media (max-width: 600px) {
+
+    .admission {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .admission>p {
+        display: none;
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+}
+
+/* Footer Section */
+
+@media (max-width: 600px) {
+
+    footer {
+        background-color: #082465;
+        height: 50px; 
+        width: 100%; 
+        color: white; 
+        text-align: center; 
+        justify-content: center; 
+        display: flex; 
+        align-items: center; 
+        font-size: 15px;
+    }
+}
