@@ -78,9 +78,13 @@ body {
 
 }
 
+.content-section {
+    margin-left: 20px;
+}
+
 .content-section>h2 {
     color: white;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     font-size: 35px;
     font-weight: 100;
 }
@@ -94,7 +98,7 @@ body {
 
 .content-section>p {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 35px;
     margin-top: 20px;
 }
@@ -119,9 +123,9 @@ button:hover {
 }
 
 .picture-section>img {
-    width: 700px; 
-    height: 450px; 
-    margin-top: 50px;
+    width: 650px; 
+    height: 420px; 
+    margin-top: 10px;
 }
 
 
@@ -215,7 +219,7 @@ button:hover {
 .images {
     width: 1210px;
     /* border: 2px solid black; */
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .images>img {
@@ -396,4 +400,18 @@ button:hover {
     font-size: 20px;
     line-height: 30px;
     margin-top: 10px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #082465;
+    height: 80px; 
+    width: 100%; 
+    color: white; 
+    text-align: center; 
+    justify-content: center; 
+    display: flex; 
+    align-items: center; 
+    font-size: 20px;
 }
