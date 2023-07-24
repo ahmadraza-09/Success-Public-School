@@ -1,6 +1,6 @@
 /* Navbar */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .navbar {
         width: 100%;
@@ -66,7 +66,7 @@
 
 /* Hero Section */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .hero-section {
         width: 100%;
@@ -132,7 +132,7 @@
 
 /* About Section */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .about-section {
         width: 100%;
@@ -163,7 +163,7 @@
 
 /* Teachers Section */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .teachers-section {
         width: 100%;
@@ -185,7 +185,7 @@
 
 /* Gallery */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .gallery {
         width: 600px;
@@ -216,7 +216,7 @@
 
 /* Vahicle Section */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .vahicle-section {
         width: 100%;
@@ -240,7 +240,7 @@
 
 /* Feedback Section */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
     
     .feedback-section {
         width: 100%;
@@ -274,7 +274,7 @@
 
 /* Contact Section */ 
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .contact-now {
         width: 100%;
@@ -317,7 +317,7 @@
 
 /* Admission Section */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     .admission {
         width: 100%;
@@ -337,7 +337,7 @@
 
 /* Footer Section */
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
 
     footer {
         background-color: #082465;
